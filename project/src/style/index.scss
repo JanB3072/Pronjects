@@ -1,0 +1,74 @@
+@charset "utf-8";
+/* CSS Document */
+// public sector;
+body,div,p,ul,ol,li,dl,dt,dd,form,table,tr,td,h1,h2,h3,h4,h5,h6,fieldset,input,textarea,figure{
+	margin:0;
+	padding:0;
+};
+a{
+	text-decoration: none;
+};
+ul,ol li{
+	list-style: none;
+};
+img{
+	display: block;
+};
+body{
+	font-family: "微软雅黑";
+};
+// header  portion;
+.header{
+	width:100%;
+	background-color:#eeeeee; 
+	height:30px;
+	.headerLeft{
+		float: left;
+		a{
+			line-height: 30px;
+			color:#051313;
+			font-size: 12px;
+		};
+	};
+	.headerRight{
+		float:right;
+		img{
+			display: inline-block;
+		};
+		a:hover{
+			color:#bb1e7b;
+		};
+		span:hover{
+			color:#bb1e7b;
+		};
+		a,span{
+		line-height: 30px;
+		color:#051313;
+		font-size: 12px;
+		};
+		a{
+		display: inline-block;
+		width:82px;
+		background: url(../img/bg.jpg) no-repeat right center;
+		text-align: center;
+		};
+		.action{
+		width:50px;
+		background-image: none;
+		};
+	
+	};
+};
+
+
+.headSec{
+	width:100%;
+	height:100px;
+	.headerSecLeft{
+		float:left;
+	};
+	.headerSecRight{
+		float:right;
+	};
+}
+

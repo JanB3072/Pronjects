@@ -1,0 +1,56 @@
+@charset "UTF-8";
+/* CSS Document */
+body, div, p, ul, ol, li, dl, dt, dd, form, table, tr, td, h1, h2, h3, h4, h5, h6, fieldset, input, textarea, figure {
+  margin: 0;
+  padding: 0; }
+
+a {
+  text-decoration: none; }
+
+ul, ol li {
+  list-style: none; }
+
+img {
+  display: block; }
+
+body {
+  font-family: "微软雅黑"; }
+
+.header {
+  width: 100%;
+  background-color: #eeeeee;
+  height: 30px; }
+  .header .headerLeft {
+    float: left; }
+    .header .headerLeft a {
+      line-height: 30px;
+      color: #051313;
+      font-size: 12px; }
+  .header .headerRight {
+    float: right; }
+    .header .headerRight img {
+      display: inline-block; }
+    .header .headerRight a:hover {
+      color: #bb1e7b; }
+    .header .headerRight span:hover {
+      color: #bb1e7b; }
+    .header .headerRight a, .header .headerRight span {
+      line-height: 30px;
+      color: #051313;
+      font-size: 12px; }
+    .header .headerRight a {
+      display: inline-block;
+      width: 82px;
+      background: url(../img/bg.jpg) no-repeat right center;
+      text-align: center; }
+    .header .headerRight .action {
+      width: 50px;
+      background-image: none; }
+
+.headSec {
+  width: 100%;
+  height: 100px; }
+  .headSec .headerSecLeft {
+    float: left; }
+  .headSec .headerSecRight {
+    float: right; }
