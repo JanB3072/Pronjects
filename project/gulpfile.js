@@ -1,5 +1,5 @@
 var gulp = require("gulp");
-// var minifyCss = require('gulp-clean-css');
+var minifyCss = require('gulp-clean-css');
 // var concat = require("gulp-concat");
 var uglify = require("gulp-uglify");
 var babel=require("gulp-babel")
@@ -11,7 +11,7 @@ var sass = require("gulp-sass");
 gulp.task("sass",function(){
 	gulp.src(["./src/style/*.scss"])
 	.pipe(sass())
-	// .pipe(minifyCss())
+	.pipe(minifyCss())
 	.pipe(gulp.dest("./dist/css"));
 });
 
@@ -57,7 +57,7 @@ gulp.task("sass",function(){
 
 //合并和压缩重命名文件
 gulp.task("babel",function(){
-	gulp.src("./src/js/carousel.js")
+	gulp.src("./src/js/*.js")
 	.pipe(babel())
 	.pipe(uglify())
 	.pipe(gulp.dest("dist/js"));

@@ -90,7 +90,15 @@ $(".navCen a").each(function(k,v){
 			})
 		});
 	});
-})
+});
+
+$("#sixP").mouseover(function(){
+	$(".footBox").show();
+});
+$("#sixP").mouseout(function(){
+	$(".footBox").hide();
+});
+
 
 
 
