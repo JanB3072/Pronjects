@@ -88,6 +88,7 @@ body{
 			margin-right: 70px;
 			margin-top: 26px;
 			input[type=text]{
+				width:325px;
 				height:28px;
 				outline:none;
 				border:1px solid #cccccc;
@@ -241,6 +242,7 @@ body{
 		width:0;
 		height:0;
 		border:0;
+		opacity: 0;
 	};
 	.secondaryTwo{
 		@extend .secondary;
@@ -715,17 +717,16 @@ body{
 		.footBotLeft{
 			float:left;
 			height:150px;
-			padding-bottom:8px;
 			p{
 				color:#bbbbbb;
-				font-size: 14px;
+				font-size:15px;
 				a{
 					color:#bbbbbb;
 				};
 			};
 			p:nth-child(2){
-				margin-top:18px;
-				margin-bottom:18px;
+				margin-top:12px;
+				margin-bottom:12px;
 			};
 			span{
 				margin-right: 10px;
@@ -735,7 +736,7 @@ body{
 			float:left;
 			width:350px;
 			padding-top: 20px;
-			margin-left: 300px;
+			margin-left: 260px;
 			img{
 				margin-bottom: 15px;
 			};

@@ -6,7 +6,7 @@ $(".subNavCen a").each(function(k,v){
 			$(n).show();
 			$(".trigon").each(function(x,y){
 				if(k==x){
-					console.log(y);
+					// console.log(y);
 					$(y).show();
 				};
 			});
@@ -23,7 +23,7 @@ $(".subNavCen a").each(function(k,v){
 				$(n).show();
 				$(".trigon").each(function(x,y){
 				if(m==x){
-					console.log(y);
+					// console.log(y);
 					$(y).show();
 					};
 				});
@@ -34,4 +34,32 @@ $(".subNavCen a").each(function(k,v){
 			})
 		});
 	});
+});
+
+// enter img
+$(".BottomTopBox #imgId").each(function(k,v){
+		$(".BottomTopBox #imgId").each(function(m,n){
+			$(v).mouseenter(function(){
+			if(k==m){
+				$(n).animate({
+					width:"100%",
+					height:"100%",
+				},1000);
+			};
+		});
+		$(".BottomTopBox #imgId").mouseleave(function(){
+			if(k==m){
+				$(n).animate({
+					width:"90%",
+					height:"90%",
+				},1000);
+			};
+		});	
+	});
+});
+$("#sixP").mouseover(function(){
+	$(".footBox").show();
+});
+$("#sixP").mouseout(function(){
+	$(".footBox").hide();
 });
