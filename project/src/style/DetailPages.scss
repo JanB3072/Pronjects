@@ -179,6 +179,7 @@ body{
 		left:44px;
 		margin:0 auto;
 		display: none;
+		overflow: hidden;
 		a{
 			color:#555555;
 		};
@@ -275,6 +276,7 @@ body{
 		width:1202px;
 		height:12px;
 		margin:25px auto 22px;
+		overflow: hidden;
 		.fullConLeft{
 			float:left;
 			font-size: 12px;
@@ -298,9 +300,311 @@ body{
 // PageFiveCon
 .PageFiveCon{
 	width:100%;
-	.fiveCon{
+	margin-bottom: 30px;
+	.fiveContent{
 		width:1202px;
-		height:452px;
 		margin:0 auto;
+		overflow: hidden;
+		.fiveCon{
+		width:545px;
+		height:470px;
+		float:left;
+			.mirrorBox{
+				float:left;
+				width:450px;
+				height:450px;
+				background-image: url(../../img/subpageTimg1.jpg);
+				background-size:450px 450px; 
+				position: relative;
+				margin-right: 30px;
+				margin-bottom: 20px;
+				.smallBox{
+					position:absolute;
+					left:0px;
+					top:0px;
+					width:220px;
+					height:200px;
+					opacity:0;
+					background-color:blue;
+					display:none;
+				};
+			};
+			.bigBox{
+				position:absolute;
+				left:488px;
+				top:249px;
+				width:420px;
+				height:420px;
+				z-index: 99;
+				float:left;
+				border:1px solid #cccccc;
+				background-image: url(../../img/subpageTimg1.jpg);
+				background-size:900px 900px; 
+				display: none;
+				overflow: hidden;
+			};
+			.fiveConLeft{
+				height:450px;
+				width:65px;
+				float:left;
+				p{
+					width:63px;
+					line-height:25px;
+					text-align: center;
+					img{
+						display: inline-block;
+					};
+				}
+				p:last-child{
+					margin-top:28px;
+				}
+				ul{
+					height:375px;
+					overflow: hidden;
+					li{
+						width:63px;
+						height:63px;
+						margin-top: 12px;
+						img{
+							width:63px;
+							height:63px;
+						}
+					};
+					li:nth-child(1){
+						border:1px solid #cccccc;
+					};
+				};
+			};
+		};
+	};
+	.fiveRightCon{
+		width:585px;
+		float:right;
+		overflow: hidden;
+		h3{
+			font-size: 30px;
+			color:#222;
+			line-height: 33px;
+			font-weight: 100;
+		}
+		.fiveRightConSec{
+			margin-top:15px;
+			font-size:16px;
+			color:#222;
+			margin-bottom: 25px;
+		}
+		ul{
+			max-width: 585px;
+			height:111px;
+			background: #f7f4f6;
+			padding:20px 0 15px 20px;
+			margin-bottom: 20px;
+			li{
+				max-width: 585px;
+				span{
+					display:inline-block;
+					font-size: 13px;
+					line-height: 35px;
+					color:#222222;
+				}
+			}
+			li:nth-child(1) span:nth-child(2){
+				font-size: 24px;
+				margin-right:10px;
+				color:#BB1E7B;
+			};
+			li:nth-child(1) span:nth-child(3){
+				font-size: 16px;
+				color:#AAA;
+				text-decoration: line-through;
+				line-height: 40px;
+			}
+			li span:nth-child(1){
+				width:90px;
+			};
+			li:nth-child(2) span:nth-child(2){
+				color:#bb1e7b;
+			}
+			b{
+				font-size: 13px;
+				margin-right: 20px;
+				color:#000000;
+				font-weight: 100;
+				background: url(../../img/dian.png) no-repeat left center;
+				padding-left: 7px;
+			}
+		}
+		.rightP{
+			padding-left: 20px;
+			span{
+				display: inline-block;
+				font-size: 13px;
+				width:80px;
+				margin-right: 10px;
+			};
+			a{
+			display: inline-block;
+			width:32px;
+			height:32px;
+			background-color: #0a0a0a;
+			vertical-align: middle;
+			cursor: auto;
+			};
+		};
+		.rightSecP{
+			margin-bottom: 20px;
+			margin-top: 23px;
+			span{
+				display: inline-block;
+				width:80px;
+				font-size: 13px;
+				color:#AAAAAA;
+			}
+			span:nth-child(2){
+				width:300px;
+				margin-left: 5px;
+			}
+			span:last-child{
+				width:390px;
+				margin-left: 85px;
+			}
+			
+		}
+		.fiveRightBox{
+			margin-top: 10px;
+			overflow: hidden;
+			a{
+				text-align: center;
+				line-height: 48px;
+				color:#bb1e7b;
+				display: block;
+				float:left;
+				width:168px;
+				height:48px;
+				border:1px solid #bb1e7b;
+				img{
+					display: inline;
+					vertical-align: middle;
+				}
+			}
+			a:last-child{
+				background:#bb1e7b;
+				color:#ffffff;
+				margin-left: 20px;
+			}
+		}
+		
 	}
-}
+};
+// PageSixCon
+.PageSixCon{
+	width:100%;
+	.sixContent{
+		width:1202px;
+		margin:0 auto;
+		.sixConLeft{
+			width:910px;
+			float:left;
+			border:1px solid #dddddd;
+			.sixConLeftTop{
+				height:45px;
+				background: #f4f4f4;
+				overflow: hidden;
+				border-bottom:1px solid #dddddd;
+				li{
+					float:left;
+					height:45px;
+					width:176px;
+					line-height: 45px;
+					border-right:1px solid #dddddd;
+					text-align: center;
+				}
+				li:nth-child(1){
+					background: #ffffff;
+					border-bottom: none;
+					border-top:1px solid #bb1e7b;
+				};
+			};
+			.sixConLeftTopCen{
+				text-align: center;
+				overflow: hidden;
+				h3{
+					margin-top:40px;
+					margin-bottom: 8px;
+					font-size: 24px;
+					color:#222;
+				};
+				li{
+					float:left;
+					margin-top: 20px;
+					text-align: left;
+					font-size: 13px;
+					width:240px;
+					margin-left: 40px;
+					p:nth-child(2){
+						margin-top: 20px;
+					}
+				}
+			}
+			.spaceDiv{
+				width:830px;
+				height:30px;
+				margin:0 auto;
+				border-bottom:1px solid #dddddd;
+				margin-bottom: 30px;
+			};
+			.sixConLeftCenBot{
+				width:100%;
+				text-align: center;
+				h2{
+					margin-top: 40px;
+					margin-bottom: 8px;
+					font-size: 24px;
+				};
+				p{
+					width:790px;
+					height:48px;
+					padding:0 40px;
+					margin-top: 30px;
+				};
+			};
+			.sixConLeftbot{
+				width:800px;
+				height:800px;
+				margin:0 auto;
+				margin-top: 30px;
+			};
+		};
+	};
+	.sixConRight{
+			width:258px;
+			float:right;
+			border:1px solid #dddddd;
+			h2{
+				width:258px;
+				font-size: 18px;
+				font-weight: 100;
+				background: #F4F4F4;
+			};
+			.sixConRightCen{
+				height:607px;
+				li{
+					width:218px;
+					height:76px;
+					img{
+						float:left;
+					};
+					p{
+						font-size: 13px;
+						width:125px;
+						height:50px;
+						float:left;
+					};
+					span{
+						font-size: 13px;
+						color: #BB1E7B;
+					};
+				};
+			};
+		};
+};
