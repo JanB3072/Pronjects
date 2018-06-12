@@ -1,0 +1,137 @@
+@charset "UTF-8";
+/* CSS Document */
+body, div, p, ul, ol, li, dl, dt, dd, form, table, tr, td, h1, h2, h3, h4, h5, h6, fieldset, input, textarea, figure {
+  margin: 0;
+  padding: 0; }
+
+a {
+  text-decoration: none; }
+
+ul, ol li {
+  list-style: none; }
+
+img {
+  display: block; }
+
+body {
+  font-family: "微软雅黑";
+  overflow-x: hidden;
+  height: 100%;
+  background: #ededed; }
+
+.registerTop {
+  width: 100%;
+  height: 111px;
+  background: #ffffff; }
+  .registerTop .registerFull {
+    width: 1202px;
+    height: 111px;
+    background: #ffffff;
+    margin: 0 auto;
+    line-height: 111px;
+    overflow: hidden; }
+    .registerTop .registerFull .registerLeft {
+      float: left; }
+    .registerTop .registerFull .registerright {
+      float: right; }
+      .registerTop .registerFull .registerright li {
+        float: left; }
+        .registerTop .registerFull .registerright li img {
+          vertical-align: middle;
+          display: inline-block;
+          margin-right: 10px; }
+        .registerTop .registerFull .registerright li span {
+          color: #333333; }
+      .registerTop .registerFull .registerright li:nth-child(2) {
+        margin: 0 72px 0 68px; }
+
+.registerCen {
+  width: 100%; }
+  .registerCen .registerCenFull {
+    width: 1202px;
+    margin: 0 auto;
+    height: 700px;
+    overflow: hidden;
+    padding-top: 82px;
+    padding-bottom: 66px; }
+    .registerCen .registerCenFull .registerCenLeft {
+      width: 460px;
+      height: 509px;
+      float: left;
+      margin-right: 96px;
+      margin-left: 70px; }
+      .registerCen .registerCenFull .registerCenLeft img {
+        width: 460px;
+        height: 509px; }
+    .registerCen .registerCenFull .registerCenRight {
+      float: left;
+      background: #ffffff;
+      width: 315px;
+      height: 497px;
+      text-align: center;
+      padding: 48px 40px; }
+      .registerCen .registerCenFull .registerCenRight h3 {
+        width: 315px;
+        font-weight: 100;
+        margin-bottom: 8px; }
+      .registerCen .registerCenFull .registerCenRight input[type=text] {
+        width: 293px;
+        height: 43px;
+        outline: none;
+        border: 1px solid #CCC;
+        padding: 0 10px;
+        margin: 20px 0 5px; }
+      .registerCen .registerCenFull .registerCenRight input[type=submit] {
+        margin-top: 16px;
+        outline: none;
+        margin-bottom: 9px;
+        width: 315px;
+        height: 42px;
+        background: #BB1E7B;
+        font-size: 16px;
+        color: #ffffff; }
+    .registerCen .registerCenFull .registerCenRightBot {
+      font-size: 13px;
+      margin-top: 13px; }
+      .registerCen .registerCenFull .registerCenRightBot span {
+        display: block; }
+      .registerCen .registerCenFull .registerCenRightBot span:nth-child(1) {
+        float: left; }
+      .registerCen .registerCenFull .registerCenRightBot span:nth-child(2) {
+        float: right;
+        color: #aaa; }
+    .registerCen .registerCenFull a {
+      width: 315px;
+      display: inline-block;
+      text-align: left;
+      font-size: 13px;
+      color: #777; }
+      .registerCen .registerCenFull a img {
+        display: inline-block; }
+    .registerCen .registerCenFull span {
+      font-size: 13px;
+      width: 100%;
+      display: inline-block;
+      text-align: left;
+      margin-top: 22px;
+      color: #aaa; }
+
+.registerBot {
+  width: 100%;
+  background: #fff; }
+  .registerBot .registerBotFull {
+    width: 1202px;
+    height: 184px;
+    background: #fff;
+    text-align: center;
+    color: #aaaaaa;
+    padding-top: 27px;
+    font-size: 13px; }
+    .registerBot .registerBotFull img {
+      display: inline-block;
+      margin-top: 19px; }
+    .registerBot .registerBotFull p:nth-child(2) {
+      margin-top: 19px; }
+
+.endLast {
+  color: black; }

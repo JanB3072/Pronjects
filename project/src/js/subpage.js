@@ -6,7 +6,6 @@ $(".subNavCen a").each(function(k,v){
 			$(n).show();
 			$(".trigon").each(function(x,y){
 				if(k==x){
-					// console.log(y);
 					$(y).show();
 				};
 			});
@@ -23,7 +22,6 @@ $(".subNavCen a").each(function(k,v){
 				$(n).show();
 				$(".trigon").each(function(x,y){
 				if(m==x){
-					// console.log(y);
 					$(y).show();
 					};
 				});
@@ -57,6 +55,7 @@ $(".BottomTopBox #imgId").each(function(k,v){
 		});	
 	});
 });
+// wechat
 $("#sixP").mouseover(function(){
 	$(".footBox").show();
 });

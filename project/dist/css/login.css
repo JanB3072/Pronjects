@@ -1,0 +1,137 @@
+@charset "UTF-8";
+/* CSS Document */
+body, div, p, ul, ol, li, dl, dt, dd, form, table, tr, td, h1, h2, h3, h4, h5, h6, fieldset, input, textarea, figure {
+  margin: 0;
+  padding: 0; }
+
+a {
+  text-decoration: none; }
+
+ul, ol li {
+  list-style: none; }
+
+img {
+  display: block; }
+
+body {
+  font-family: "微软雅黑";
+  overflow-x: hidden;
+  height: 100%;
+  background: #ededed; }
+
+.loginTop {
+  width: 100%;
+  height: 111px;
+  background: #ffffff; }
+  .loginTop .loginFull {
+    width: 1202px;
+    height: 111px;
+    background: #ffffff;
+    margin: 0 auto;
+    line-height: 111px;
+    overflow: hidden; }
+    .loginTop .loginFull .loginLeft {
+      float: left; }
+    .loginTop .loginFull .loginright {
+      float: right; }
+      .loginTop .loginFull .loginright li {
+        float: left; }
+        .loginTop .loginFull .loginright li img {
+          vertical-align: middle;
+          display: inline-block;
+          margin-right: 10px; }
+        .loginTop .loginFull .loginright li span {
+          color: #333333; }
+      .loginTop .loginFull .loginright li:nth-child(2) {
+        margin: 0 72px 0 68px; }
+
+.loginCen {
+  width: 100%; }
+  .loginCen .loginCenFull {
+    width: 1202px;
+    margin: 0 auto;
+    overflow: hidden;
+    padding-top: 66px; }
+    .loginCen .loginCenFull .loginCenLeft {
+      width: 460px;
+      height: 509px;
+      float: left;
+      margin-right: 96px;
+      margin-left: 70px; }
+      .loginCen .loginCenFull .loginCenLeft img {
+        width: 460px;
+        height: 509px; }
+    .loginCen .loginCenFull .loginCenRight {
+      float: left;
+      background: #ffffff;
+      width: 315px;
+      height: 338px;
+      text-align: center;
+      padding: 56px 40px; }
+      .loginCen .loginCenFull .loginCenRight h3 {
+        width: 315px;
+        font-weight: 100;
+        margin-bottom: 21px; }
+      .loginCen .loginCenFull .loginCenRight input[type=text] {
+        width: 293px;
+        height: 43px;
+        outline: none;
+        border: 1px solid #CCC;
+        padding: 0 10px;
+        margin: 14px 0 5px; }
+      .loginCen .loginCenFull .loginCenRight input[type=submit] {
+        margin-top: 30px;
+        outline: none;
+        margin-bottom: 9px;
+        width: 315px;
+        height: 42px;
+        background: #BB1E7B;
+        font-size: 16px;
+        color: #ffffff; }
+    .loginCen .loginCenFull .loginCenRightBot {
+      font-size: 13px;
+      margin-top: 13px; }
+      .loginCen .loginCenFull .loginCenRightBot span {
+        display: block; }
+      .loginCen .loginCenFull .loginCenRightBot span:nth-child(1) {
+        float: left; }
+      .loginCen .loginCenFull .loginCenRightBot span:nth-child(2) {
+        float: right;
+        color: #aaa; }
+    .loginCen .loginCenFull a {
+      width: 315px;
+      display: inline-block;
+      text-align: left;
+      font-size: 13px;
+      color: #777; }
+      .loginCen .loginCenFull a img {
+        display: inline-block; }
+    .loginCen .loginCenFull .cenP {
+      font-size: 13px;
+      text-align: left;
+      margin-top: 22px;
+      color: #aaa; }
+      .loginCen .loginCenFull .cenP a {
+        width: 52px;
+        color: #BB1E7B;
+        margin-right: 132px; }
+
+.loginBot {
+  width: 100%;
+  background: #fff; }
+  .loginBot .loginBotFull {
+    width: 1202px;
+    height: 184px;
+    background: #fff;
+    text-align: center;
+    color: #aaaaaa;
+    padding-top: 27px;
+    font-size: 13px; }
+    .loginBot .loginBotFull img {
+      display: inline-block;
+      margin-top: 19px; }
+    .loginBot .loginBotFull p:nth-child(2) {
+      margin-top: 19px; }
+
+.endLast {
+  color: black; }
