@@ -34,30 +34,48 @@ body {
       .header .headWhole .headerLeft a {
         line-height: 30px;
         color: #051313;
-        font-size: 12px; }
+        font-size: 13px; }
     .header .headWhole .headerRight {
       float: right;
-      margin-right: 30px; }
-      .header .headWhole .headerRight span {
-        background: url(../../img/phone.jpg) no-repeat left center;
-        text-indent: 22px; }
-      .header .headWhole .headerRight a:hover {
-        color: #BB1E7B; }
-      .header .headWhole .headerRight span:hover {
-        color: #BB1E7B;
-        background: url(../../img/phone1.jpg) no-repeat left center; }
-      .header .headWhole .headerRight a, .header .headWhole .headerRight span {
+      width: 620px; }
+      .header .headWhole .headerRight .endBox {
         line-height: 30px;
-        color: #051313;
-        font-size: 12px;
-        display: inline-block; }
-      .header .headWhole .headerRight a {
-        width: 82px;
+        float: left;
+        font-size: 13px;
+        padding: 0 15px;
         background: url(../../img/bg.jpg) no-repeat right center;
-        text-align: center; }
+        display: none; }
+        .header .headWhole .headerRight .endBox a:hover {
+          color: #BB1E7B; }
       .header .headWhole .headerRight .action {
-        width: 50px;
-        background-image: none; }
+        background: url(../../img/bg.jpg) no-repeat right center;
+        float: left;
+        font-size: 13px; }
+        .header .headWhole .headerRight .action a {
+          padding-right: 15px;
+          line-height: 30px;
+          color: #051313; }
+        .header .headWhole .headerRight .action a:hover {
+          color: #BB1E7B; }
+      .header .headWhole .headerRight .lastBox {
+        float: left;
+        font-size: 13px; }
+        .header .headWhole .headerRight .lastBox a {
+          display: inline-block;
+          line-height: 30px;
+          color: #051313;
+          width: 82px;
+          background: url(../../img/bg.jpg) no-repeat right center;
+          text-align: center; }
+        .header .headWhole .headerRight .lastBox a:hover {
+          color: #BB1E7B; }
+        .header .headWhole .headerRight .lastBox .box {
+          line-height: 30px;
+          padding-left: 22px;
+          background: url(../../img/phone.jpg) no-repeat left center; }
+        .header .headWhole .headerRight .lastBox .box:hover {
+          color: #BB1E7B;
+          background: url(../../img/phone1.jpg) no-repeat left center; }
 
 .headSec {
   width: 100%;

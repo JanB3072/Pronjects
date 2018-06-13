@@ -30,18 +30,19 @@
 				<div class="loginCenRightTop">
 					<input type="text" placeholder="邮箱或者手机号" id="loginId" name="loginName">
 				</div>
+				<div class="loginTis"></div>
 				<div class="loginCenRightCen">
 					<input type="text" placeholder="输入密码" id="passId" name="loginPass">
 				</div>
 				<div class="loginCenRightBot">
-					<span><input type="checkbox" checked />记住账号</span>
+					<span><input type="checkbox" checked id="checkId"/>记住账号</span>
 					<span>优众老用户可以用优众账号登录</span>
 				</div>
-					<input type="submit" value="登录" id="btn">
+					<input type="button" value="登录" id="btn">
 					<a href="#"><img src="img/wb.jpg"/>微博登录</a>
 					<p class="cenP">
 						<span>还没有账号?</span>
-						<a href="#">免费注册</a>
+						<a href="register.html">免费注册</a>
 						<span>忘记密码</span>
 					</p>
 			</form>
@@ -59,4 +60,5 @@
 </body>
 </html>
 <script type="text/javascript" src="src/js/jquery-1.11.3.js"></script>
+<script type="text/javascript" src="src/js/jquery.cookie.js"></script>
 <script type="text/javascript" src="src/js/login.js"></script>

@@ -85,7 +85,7 @@ body{
 			h3{
 				width:315px;
 				font-weight: 100;
-				margin-bottom: 8px;
+				margin-bottom: 35px;
 			}
 			input[type=text]{
 				width:293px;
@@ -93,8 +93,11 @@ body{
 				outline:none;
 				border:1px solid #CCC;
 				padding:0 10px;
-				margin:20px 0 5px;
+				// margin:20px 0 5px;
 			};
+			.loginPassTis{
+				height:30px;
+			}
 			input[type=submit]{
 				margin-top: 16px;
 				outline:none;

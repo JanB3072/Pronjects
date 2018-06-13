@@ -68,18 +68,23 @@ body {
       height: 338px;
       text-align: center;
       padding: 56px 40px; }
+      .loginCen .loginCenFull .loginCenRight .loginTis {
+        height: 30px;
+        text-align: left;
+        line-height: 30px;
+        color: #BB1E7B;
+        font-size: 13px; }
       .loginCen .loginCenFull .loginCenRight h3 {
         width: 315px;
         font-weight: 100;
-        margin-bottom: 21px; }
+        margin-bottom: 35px; }
       .loginCen .loginCenFull .loginCenRight input[type=text] {
         width: 293px;
         height: 43px;
         outline: none;
         border: 1px solid #CCC;
-        padding: 0 10px;
-        margin: 14px 0 5px; }
-      .loginCen .loginCenFull .loginCenRight input[type=submit] {
+        padding: 0 10px; }
+      .loginCen .loginCenFull .loginCenRight input[type=button] {
         margin-top: 30px;
         outline: none;
         margin-bottom: 9px;

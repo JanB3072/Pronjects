@@ -36,38 +36,62 @@ body{
 			a{
 				line-height: 30px;
 				color:#051313;
-				font-size: 12px;
+				font-size: 13px;
 			};
 		};
 		.headerRight{
 			float:right;
-			margin-right:30px;
-			span{
-				background: url(../../img/phone.jpg) no-repeat left center;
-				text-indent: 22px;
+			width:620px;
+			.endBox{
+				line-height: 30px;
+				float:left;
+				font-size: 13px;
+				padding:0 15px;
+				background: url(../../img/bg.jpg) no-repeat right center;
+				display: none;
+				a:hover{
+					color:#BB1E7B;
+				};
 			}
-			a:hover{
-				color:#BB1E7B;
-			};
-			span:hover{
-				color:#BB1E7B;
-				background: url(../../img/phone1.jpg) no-repeat left center;
-			};
-			a,span{
-			line-height: 30px;
-			color:#051313;
-			font-size: 12px;
-			display: inline-block;
-			};
-			a{
-			width:82px;
-			background: url(../../img/bg.jpg) no-repeat right center;
-			text-align: center;
-			};
 			.action{
-			width:50px;
-			background-image: none;
-			};
+				background: url(../../img/bg.jpg) no-repeat right center;
+				float:left;
+				font-size: 13px;
+				a{
+					padding-right:15px;
+					line-height: 30px;
+					color:#051313;
+					
+				}
+				a:hover{
+					color:#BB1E7B;
+				};
+			}
+			.lastBox{
+				float:left;
+				font-size: 13px;
+				a{
+					// padding:0 15px;
+					display: inline-block;
+					line-height: 30px;
+					color:#051313;
+					width:82px;
+					background: url(../../img/bg.jpg) no-repeat right center;
+					text-align: center;
+				}
+				a:hover{
+					color:#BB1E7B;
+				};
+				.box{
+					line-height: 30px;
+					padding-left: 22px;
+					background: url(../../img/phone.jpg) no-repeat left center;
+				}
+				.box:hover{
+					color:#BB1E7B;
+					background: url(../../img/phone1.jpg) no-repeat left center;
+				};
+			}
 		};
 	};
 };

@@ -222,8 +222,7 @@ body {
   .PageFullCon .fullCon {
     width: 1202px;
     height: 12px;
-    margin: 25px auto 22px;
-    overflow: hidden; }
+    margin: 25px auto 22px; }
     .PageFullCon .fullCon .fullConLeft {
       float: left;
       font-size: 12px;

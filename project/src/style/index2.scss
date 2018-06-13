@@ -1,0 +1,67 @@
+@charset "utf-8";
+/* CSS Document */
+// public sector;
+body,div,p,ul,ol,li,dl,dt,dd,form,table,tr,td,h1,h2,h3,h4,h5,h6,fieldset,input,textarea,figure{
+	margin:0;
+	padding:0;
+}
+html{
+	font-size: 26.67vw;
+}
+a{
+	text-decoration: none;
+};
+ul,ol li{
+	list-style: none;
+};
+img{
+	display: block;
+};
+html,body{
+	font-family: "微软雅黑";
+};
+body{
+	height:100%;
+}
+
+// header
+header{
+	height:0.15rem;
+	width:100%;
+	background: #ddd;
+	box-sizing:border-box;
+	display: -webkit-flex;
+	justify-content:space-between;
+	padding:0 0.08rem;
+	align-items:center;
+	.headerLeft{
+		height:0.15rem;
+		display: flex;
+		align-items:center;
+		span{
+			font-size: 0.06rem;
+			display: block;
+		};
+	}
+		.headerRight{
+			height:0.15rem;
+			display: flex;
+			justify-content:space-between;
+			.headerRightOne{
+				display: flex;
+				align-items:center;
+			}
+			.headerRightTwo{
+				display: flex;
+				align-items:center;
+			}
+			a{
+				font-size: 0.06rem;
+				display: block;
+			};
+			span{
+				font-size: 0.06rem;
+				display:block;
+			}
+		}
+}

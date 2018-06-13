@@ -27,8 +27,8 @@ function fadeInOut(outOrd,inOrd){
 	if(outOrd==inOrd){
 		return;
 	}
-	console.log("outOrd:"+outOrd);
-	console.log("inOrd:"+inOrd);
+	// console.log("outOrd:"+outOrd);
+	// console.log("inOrd:"+inOrd);
 	$("#solid img").eq(outOrd).fadeOut(1000);
 	$("#solid img").eq(inOrd).fadeIn(1000);
 }
@@ -98,7 +98,19 @@ $("#sixP").mouseover(function(){
 $("#sixP").mouseout(function(){
 	$(".footBox").hide();
 });
-
-
+$(function(){
+	$.cookie('loginName');
+	console.log($.cookie('loginName'));
+	$(".endBox").css("display","block");
+	$(".action").css("display","none");
+	$(".lastEndBox").html($.cookie('loginName'));
+});
+$(function(){
+	$(".quit").click(function(){
+		$.cookie("loginName","");
+		$(".endBox").css("display","none");
+		$(".action").css("display","block");
+	})
+})
 
 
