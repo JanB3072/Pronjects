@@ -48,9 +48,69 @@ header {
     header .headerRight .headerRightTwo {
       display: flex;
       align-items: center; }
+      header .headerRight .headerRightTwo a {
+        padding: 0 0.06rem;
+        background: url(../../img/bg.jpg) no-repeat right center; }
     header .headerRight a {
       font-size: 0.06rem;
-      display: block; }
+      display: block;
+      color: #051313; }
+    header .headerRight a:hover {
+      color: #BB1E7B; }
+    header .headerRight span:hover {
+      color: #BB1E7B;
+      background: url(../../img/phone1.jpg) no-repeat left center; }
     header .headerRight span {
+      margin-left: 0.07rem;
       font-size: 0.06rem;
-      display: block; }
+      display: block;
+      background: url(../../img/phone.jpg) no-repeat left center;
+      padding-left: 0.11rem; }
+
+nav {
+  width: 100%;
+  height: 0.5rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center; }
+  nav .logo img {
+    width: 0.785rem;
+    height: 0.5rem; }
+  nav p {
+    height: 1px;
+    background: black;
+    width: 0.2rem;
+    margin-top: 0.05rem; }
+  nav .navRight {
+    display: flex;
+    text-align: center; }
+    nav .navRight .navRightOne span {
+      color: #BB1E7B; }
+    nav .navRight .navRightOne span:nth-child(1) {
+      background: #BB1E7B; }
+  nav span {
+    font-size: 12px;
+    display: block;
+    color: #aaa; }
+  nav span:nth-child(1) {
+    text-align: center;
+    color: #fff;
+    margin: 0 0.1rem;
+    width: 0.08rem;
+    line-height: 0.08rem;
+    height: 0.08rem;
+    border-radius: 50%;
+    background: #aaa; }
+
+section {
+  width: 100%;
+  height: 0.2rem;
+  background: #acb0b1;
+  display: flex;
+  justify-content: space-around;
+  line-height: 0.2rem;
+  margin-bottom: 0.05rem; }
+  section span {
+    font-size: 0.065rem;
+    display: block;
+    color: #fff; }
